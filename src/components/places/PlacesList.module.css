@@ -1,0 +1,22 @@
+.places-list{
+    width:95%;
+    margin:auto;
+    list-style-type:none;
+    padding:0;
+    margin-top:3rem;
+    /* border:1px solid red; */
+}
+
+.no-places{
+    width:400px;
+    height:auto;
+    margin: auto;
+    margin-top:5rem;
+    margin-bottom:2rem;
+    text-align: center;
+    color:rgb(186, 191, 220);
+}
+
+.no-places h3{
+    padding:1rem;
+}

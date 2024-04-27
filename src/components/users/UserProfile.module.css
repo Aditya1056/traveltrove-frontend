@@ -1,0 +1,117 @@
+.actions{
+    width:100%;
+    margin-top:3rem;
+    margin-bottom:3rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.avatar-actions{
+    width:95%;
+    margin:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    /* border:1px solid red; */
+    margin-top:2rem;
+}
+
+.change-avatar-btn{
+    border:1px solid rgb(47, 99, 71);
+    color:rgb(144, 217, 133);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.change-avatar-btn:hover{
+    background-color:rgb(172, 176, 172);
+    color:rgb(9, 48, 15);
+}
+
+.close-avatar-btn{
+    border:1px solid rgb(177, 147, 215);
+    color:rgb(176, 168, 235);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.close-avatar-btn:hover{
+    background-color:rgb(194, 190, 208);
+    color:rgb(30, 20, 115);
+}
+
+.pencil-icon, .cross-icon{
+    font-size:18px;
+    margin-left:5px;
+}
+
+.change-avatar{
+    /* border:1px solid red; */
+    width:90%;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-top:0.5rem;
+    padding:1rem 2rem;
+}
+
+.avatar-submit-btn{
+    color:rgb(175, 219, 209);
+    border:0.5px solid rgb(60, 109, 125);
+}
+
+.avatar-submit-btn:hover{
+    background-color:rgb(46, 93, 108);
+    color:white;
+}
+
+.change-avatar form{
+    border-radius:5px;
+    padding-bottom:15px;
+    padding-left:5px;
+    padding-right:5px;
+    text-align:center;
+    box-shadow:0 0 3px rgb(103, 168, 151);
+}
+
+.show-wishlist{
+    width:100%;
+    /* border:1px solid red; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:2rem;
+}
+
+.show-wishlist-btn{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color: rgb(255, 255, 255);
+    background: rgb(54, 78, 253);
+    transition:1s;
+    box-shadow:0 0 1px rgb(119, 160, 255);
+}
+
+.action-icon{
+    /* border:1px solid red; */
+    margin-left:5px;
+}
+
+.up-icon{
+    font-size:23px;
+}
+
+.logout-btn{
+    color:rgb(241, 201, 148);
+    border:1px solid rgb(230, 202, 138);
+}
+
+.logout-btn:hover{
+    background: rgb(236, 218, 195);
+    color:rgb(12, 27, 57);
+}

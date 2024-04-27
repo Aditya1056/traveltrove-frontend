@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    /* background: rgb(46,49,102);
+    background: radial-gradient(circle, rgba(46,49,102,1) 50%, rgba(21,35,68,1) 100%); */
+    background: rgb(50,53,103);
+    background: radial-gradient(circle, rgba(50,53,103,1) 0%, rgba(16,20,30,1) 70%);
+
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}

@@ -1,0 +1,14 @@
+.profile-pic{
+    width:100%;
+    /* border:1px solid blue; */
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+}
+
+.profile-pic img{
+    display:block;
+    border-radius:50%;
+    object-fit: cover;
+}

@@ -1,0 +1,44 @@
+.nav-links{
+    list-style-type: none;
+    display:flex;
+    padding:0;
+    /* border:1px solid blue; */
+}
+
+.nav-links .user-profile{
+    height:100%;
+    /* border:1px solid red; */
+    margin-left:15px;
+
+}
+
+.nav-links .user-profile a{
+    /* border:1px solid red; */
+    display:flex;
+    border-radius:50%;
+    justify-content: center;
+    align-items: center;
+    /* width:100px; */
+}
+
+.nav-links .user-profile a:hover,
+.nav-links .user-profile a.active{
+    /* border: 2px solid blue; */
+    box-shadow:0 0 8px rgb(154, 195, 212);
+}
+
+.nav-links .user-profile.in-drawer{
+    margin:15px 0px;
+}
+
+.user-profile.in-drawer a:hover,
+.user-profile.in-drawer a.active{
+    box-shadow:0 0 20px rgb(15, 46, 64);
+}
+
+.nav-links.in-drawer{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}

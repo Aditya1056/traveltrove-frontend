@@ -1,0 +1,26 @@
+.users-list{
+    width:95%;
+    margin:auto;
+    /* position:relative; */
+    list-style-type: none;
+    /* border:1px solid green; */
+    padding:1rem;
+    margin-top:1rem;
+    /* transform:none; */
+    /* animation: fade-in 0.3s ease-out forwards; */
+}
+
+.fallback{
+    margin-top:4rem;
+    text-align: center;
+    color:rgb(184, 213, 232);
+}
+
+/* @keyframes fade-in{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity:1;
+    }
+} */

@@ -1,0 +1,43 @@
+.avatar-selector{
+    width:100%;
+    margin:18px auto;
+    /* border:1px solid red; */
+}
+
+.avatar-selector p{
+    color:rgb(162, 185, 214);
+    margin-bottom:10px;
+    font-size:18px;
+}
+
+.select-avatar{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    border-radius:5px;
+    /* box-shadow:inset 0 0 2px rgb(137, 162, 193); */
+}
+
+.avatar-div{
+    width:90px;
+    height:90px;
+    margin:10px 10px;
+    /* border:1px solid red; */
+    border-radius:50%;
+    overflow: hidden;
+}
+
+.avatar-div.selected{
+    border:3px solid rgb(30, 236, 81);
+}
+
+.avatar-div img{
+    width:100%;
+    height:100%;
+    /* border:1px solid blue; */
+    object-fit:cover;
+}
+
+.avatar-div:hover{
+    cursor:pointer;
+}

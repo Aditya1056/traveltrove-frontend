@@ -1,0 +1,74 @@
+.form-element{
+    width:100%;
+    /* border:1px solid blue; */
+    margin-bottom:20px;
+}
+
+.form-element label{
+    font-size:17px;
+    color:rgb(176, 207, 232);
+}
+
+.form-element input,.form-element textarea{
+    outline:none;
+    margin-top:5px;
+    width:95%;
+    padding: 8px 8px;
+    border:none;
+    background:rgb(208, 225, 255);
+    border-radius:5px;
+    font-size:16px;
+    font-family: "Merriweather", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.form-element textarea{
+    min-width:95%;
+    max-width:95%;
+    height:100px;
+}
+
+.form-element input:focus,.form-element textarea:focus{
+    box-shadow: inset 2.5px 2.5px 2.5px rgb(68, 96, 141), inset -2.5px -2.5px 2.5px rgb(68, 96, 141);
+}
+
+.form-element.error-input label{
+    color:rgb(241, 189, 189);
+}
+
+.form-element.error-input input,.form-element.error-input textarea{
+    border:1px solid rgb(218, 99, 99);
+    background: rgb(226, 184, 184);
+}
+
+.form-element.error-input input:focus,.form-element.error-input textarea:focus{
+    border:none;
+    background: rgb(214, 197, 168);
+    box-shadow: inset 2.5px 2.5px 2.5px rgb(185, 127, 51), inset -2.5px -2.5px 2.5px rgb(185, 127, 51);
+    
+}
+
+.form-element label sup{
+    color:rgb(228, 207, 115);
+    margin-left:5px;
+}
+
+.error{
+    display:flex;
+    color:rgb(213, 125, 117);
+    font-size:15px;
+    margin-top:8px;
+    margin-bottom:30px;
+    align-items: center;
+    justify-content:center;
+}
+
+.error p{
+    margin:0;
+    padding:0;
+    margin-left:3px;
+}
+
+
+
